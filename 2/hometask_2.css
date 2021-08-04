@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #4553C1;
+  font-size: 32px;
+}
+
+fieldset {
+  border: none;
+  box-shadow: 0 0 10px #ddd;
+  padding: 30px;
+  min-width: 300px;
+  border-width: 1px;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.form-field:focus-visible {
+  outline: none;
+}
+.form-field:focus {
+  box-shadow: inset 0 0 3px #c4c8eb;
+  border-color: #c4c8eb;;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.form-title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 3px;
+  display: block;
+}
+
+a {
+  color: #4553C1;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #4553C1;
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  border-color: #4553C1;
+  border-radius: 4px;
+}
+
+.stretch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot-link {
+  font-size: 12px;
+}
